@@ -1,0 +1,85 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #eeeaea, #cedaf1);
+    padding: 20px;
+}
+
+/* Main Checkout Container */
+.checkout-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+/* Headings */
+.checkout-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.checkout-container h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: #222;
+}
+
+/* Product List */
+.checkout-container ul {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.checkout-container li {
+    font-size: 1rem;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0077cc;
+}
+
+/* Special Confirm Order Link */
+a:last-of-type {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a:last-of-type:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #c5cee0;
+    margin: 0;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.confirmation-container {
+    width: 90%;
+    max-width: 700px;
+}
+
+.receipt-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-left: 6px solid #00b894;
+}
+
+.receipt-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2d3436;
+}
+
+.order-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #2f3640;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.item-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #dfe6e9;
+    font-size: 15px;
+    color: #2d3436;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0984e3;
+}
+
+.thank-you {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #00b894;
+    text-align: center;
+}
+
+.error-box {
+    background: #ffe6e6;
+    color: #d63031;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ff7675;
+    font-size: 16px;
+    text-align: center;
+}
