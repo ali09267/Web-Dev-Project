@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Free Fire Fan Website (Admin Panel + User Features)
 
 Welcome to the **Free Fire Fan Website** — a fully responsive and dynamic PHP + MySQL web project designed for fans of the popular mobile game **Garena Free Fire**.
